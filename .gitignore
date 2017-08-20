@@ -3,4 +3,5 @@ fizzbuzzcpp
 fizzbuzz.exe
 fizzbuzz.class
 fizzbuzz.jar
-fizzbuzz
+fizzbuzz.o
+fizzbuzz.hi
