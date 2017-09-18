@@ -11,9 +11,7 @@ defmodule FizzBuzz do
     import Enum
     1..n |> map(func) |> each(&IO.puts/1) 
   end
-end
 
-defmodule FizzBuzz2 do 
   def to(max) do
     1..max |> Enum.each fn(n) ->
       case {rem(n, 3) === 0, rem(n, 5) === 0} do
@@ -24,7 +22,7 @@ defmodule FizzBuzz2 do
       end
     end
   end
+  
 end
-
 
 FizzBuzz.fizzbuzz(30)
